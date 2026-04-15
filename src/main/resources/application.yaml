@@ -1,6 +1,7 @@
 spring:
   application:
     name: SplitMoney
+
   datasource:
     url: jdbc:postgresql://localhost:5432/splitmoney
     driverClassName: org.postgresql.Driver
@@ -18,3 +19,6 @@ telegram:
     username: splitmoney_robot
   admin:
     chat-id: 6826694520
+
+server:
+  port: 8080
