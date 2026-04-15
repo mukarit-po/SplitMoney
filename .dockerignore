@@ -1,0 +1,16 @@
+.gradle
+build
+bin
+out
+.idea
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Dockerfile
+.dockerignore
+gradlew
+gradlew.bat
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
