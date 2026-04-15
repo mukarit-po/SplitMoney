@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: SplitMoney
+  datasource:
+    url: jdbc:postgresql://localhost:5432/splitmoney
+    driverClassName: org.postgresql.Driver
+    username: mukarit
+    password: 1234
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+telegram:
+  bot:
+    token: 8772223656:AAHNYc836659Znc3kVyFaVZZsBl0xc4WVuo
+    username: splitmoney_robot
+  admin:
+    chat-id: 6826694520
